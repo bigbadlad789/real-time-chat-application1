@@ -37,6 +37,7 @@ a {
 	color: var(--dark-color-a);
 	border: 0;
 	font-size: 17px;
+	border-radius: 10px;
 }
 
 /* Chat Page */
@@ -138,20 +139,21 @@ a {
 .join-container {
 	max-width: 500px;
 	margin: 80px auto;
-	color: #fff;
+	color: black;
 }
 
 .join-header {
 	text-align: center;
 	padding: 20px;
-	background: var(--dark-color-a);
+	background:#25d366; 
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+	color:white;
 }
 
 .join-main {
 	padding: 30px 40px;
-	background: var(--dark-color-b);
+	background: lightgrey
 }
 
 .join-main p {
@@ -184,7 +186,18 @@ a {
 .join-main .btn {
 	margin-top: 20px;
 	width: 100%;
+	color:black;
+	background: white;
+	transition: 0.5s;
 }
+
+.join-main .btn:hover{
+	background-color: lightgreen;
+}
+
+
+
+
 
 @media (max-width: 700px) {
 	.chat-main {
